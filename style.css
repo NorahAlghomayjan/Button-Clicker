@@ -1,0 +1,43 @@
+* {margin: 0; font-family: 'Roboto';}
+
+.page {
+    margin: 1px 40px 10px 40px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.top {
+    background-color: rgb(171, 171, 171);
+    margin-bottom: 10px;
+    display: flex;
+    align-items: center;
+    width: 500px;
+}
+.top * { margin: 5px 8px 5px 8px}
+#title {flex: 1;}
+#search { flex-grow: 2; height: 28px;margin: auto 20px auto 20px;}
+.btn {flex: 1;}
+#login { background-color: rgb(0, 81, 255);  border: 1px solid black; box-shadow: 3px 3px black; color: white; padding: 10px; height: fit-content;}
+
+/* bottom */
+
+.bottom {padding: 10px 0px 10px 0px; display: flex; width: 500px;}
+
+/* right */
+
+.right { flex: 2; display: flex; flex-direction: column; margin-right: 10px;}
+
+
+.word {padding: 10px; margin-bottom: 10px; border: 1px solid black; flex-grow: 1; display: flex; align-items: center; }
+.def1 { flex:1; margin-right: 20px; text-align: center;}
+.def1 * {margin: 2px;}
+.def2 { flex:3; }
+
+.likes {background-color: rgb(255, 230, 0); border: 1px solid black; box-shadow: 1px 1px black; width: 70px; padding: 2px;}
+/* left */
+
+.left{ flex: 1;}
+
+.addDef {padding: 10px 30px 10px 30px; margin-bottom: 10px; border: 1px solid black;}
+
+.btn2 {background-color: rgb(89, 142, 89); border: 1px solid black; box-shadow: 3px 3px black;}

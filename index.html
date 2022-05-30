@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Button Clicker</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet"> 
+</head>
+<body>
+    <div class="page">
+        <div class="top">
+            <h1 id="title"> Dojonary</h1>
+            <input type="text" placeholder="search" id="search">
+            <div class="btn"><button id="login" onclick="logout(this)">Login</button></div>
+        </div>
+        <div class="bottom">
+            <div class="right">
+                <div class="word">
+                    <div class="def1">
+                        <h1> Ninja</h1>
+                        <h4> noun </h4>
+                        <p>Plural:ninjas.</p>
+                        <button class="likes" onclick="alert('Ninja was liked')">13 likes</button>
+                    </div>
+                    <div class="def2"> A practitioner skills in <a href="#">Japanes</a> art of <a href="#">ninjutsu</a></div>
+                </div>
+                <div class="word">
+                    <div class="def1">
+                        <h1> Ninja</h1>
+                        <h4> noun </h4>
+                        <p>Plural:ninjas.</p>
+                        <button class="likes" onclick="alert('Ninja was liked')">13 likes</button>
+                    </div>
+                    <div class="def2"> A practitioner skills in <a href="#">Japanes</a> art of <a href="#">ninjutsu</a></div>
+                </div>
+            </div>
+    
+            <div class="left">
+                <div class="addDef">
+                    <h3> Dojonary id defined by <b>YOU</b></h3>
+                    <button class="btn2" onclick="removebtn(this)"> Add Definition</button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
